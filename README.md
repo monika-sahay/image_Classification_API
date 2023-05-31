@@ -23,7 +23,7 @@ To run this project, you will need:
 #### Usage
 1. Clone the repository and navigate to the project directory.
 2. Install the required dependencies listed in the requirements.txt file.
-3. Follow the step-by-step instructions provided in the README.md file to deploy the Flask API on Heroku.
+3. Build a pipeline using Docker, jenkins, Gunicorn and github on aws.
 4. Use Postman or any other API testing tool to send images to the deployed API for classification.
 #### Contributing
 Contributions to this project are welcome! If you have any suggestions, bug reports, or feature requests, please open an issue or submit a pull request. Let's collaborate to enhance this project and make it even more useful for the community.
