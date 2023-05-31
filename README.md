@@ -18,7 +18,9 @@ To run this project, you will need:
 - Python 3.x
 - PyTorch
 - Flask
-- Heroku account
+- Aws account
+- Jenkins
+- Gunicorn
 - Postman API Platform
 #### Usage
 1. Clone the repository and navigate to the project directory.
