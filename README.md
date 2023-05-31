@@ -10,7 +10,7 @@ To get started, learners will need a AWS account and some understanding of the P
 - Deploy a Flask REST API for image classification using a pre-trained PyTorch computer vision model.
 - Utilize one of PyTorch's pre-trained computer vision models for image classification.
 - Enable users to submit an image via the API and receive the predicted classification label.
-- Provide step-by-step instructions for deploying the API on Heroku.
+- Provide step-by-step instructions for deploying the API on aws.
 - Demonstrate how to test the API functionality using the Postman API Platform.
 #### Requirements
 To run this project, you will need:
