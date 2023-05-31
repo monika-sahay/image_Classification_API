@@ -9,7 +9,7 @@ import torchvision.transforms as transforms
 application = Flask(__name__)
 ALLOWES_EXTENSIONS = {'jpg', 'jpeg'}
 
-model = models.googlenet(pretrained=true)
+model = models.googlenet(pretrained=True)
 imagenet_index = json.load(open('./imagenet_class_index.json'))
 
 
@@ -34,12 +34,12 @@ def prediction(image_bytes):
 
 
 
-@app.route('/', methods=['GET','POST'])
+@application.route('/', methods=['GET','POST'])
 def index():
     return "Welcome to the deploying a pytorch model with flask app"
 
 
-@app.route('/predict', methods=['POST'])
+@application.route('/predict', methods=['POST'])
 def predict():
     if request.method=='POST':
         file = request.files['file']
